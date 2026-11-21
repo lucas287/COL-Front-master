@@ -1,49 +1,52 @@
-# 📦 ERP - Controle Interno de Estoque
+# COL — Controle Operacional Lógico | Frontend
 
-Bem-vindo ao repositório do meu projeto! 
+Aplicação web de gestão operacional desenvolvida com React, TypeScript e Vite. Este repositório contém a interface do sistema; a API fica no repositório [COL-BACK](https://github.com/lucas287/COL-BACK).
 
-Este sistema é um **ERP (Enterprise Resource Planning)** focado no controle interno de estoque, gestão de cardápio e administração de pedidos. Ele foi idealizado e desenvolvido por mim, estudante da **FATEC de Adamantina**, como parte da minha jornada acadêmica e prática em Engenharia de Software.
+## Tecnologias
 
-O objetivo deste projeto é criar uma solução completa, eficiente e moderna para o gerenciamento de um estabelecimento, unificando uma interface de usuário rápida com uma API segura e robusta.
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS e componentes Radix/shadcn
+- React Router
+- TanStack Query
+- Socket.IO Client
 
----
+## Módulos presentes no frontend
 
-## ✨ Funcionalidades Principais
+- Dashboard e indicadores
+- Produtos e estoque
+- Solicitações, separações e reposições
+- Relatórios e cálculos
+- Tarefas, lembretes e rotinas de escritório
+- Usuários, permissões e auditoria
+- Autenticação e notificações
 
-O sistema foi arquitetado para cobrir todas as necessidades operacionais de um negócio:
+## Executar localmente
 
-- 🍔 **Gestão de Cardápio:** Cadastro completo de produtos, categorias, ingredientes removíveis e gestão inteligente de adicionais pagos.
-- 🛒 **Ponto de Venda (PDV):** Interface ágil e otimizada para o registo rápido de pedidos e atendimento ao cliente.
-- 📦 **Controle de Estoque:** Monitoramento interno dos produtos e insumos do estabelecimento.
-- 📊 **Dashboard Administrativo:** Visão gerencial para acompanhamento de pedidos e configurações da loja.
-- 🔒 **Segurança Avançada:** Sistema de "Cofre Silencioso" para autenticação de administradores, separando perfeitamente o acesso de clientes e funcionários.
+```bash
+npm install
+npm run dev
+```
 
----
+Para validar a compilação:
 
-## 🛠️ Tecnologias Utilizadas
+```bash
+npm run build
+```
 
-Este projeto é *Full-Stack* e foi construído utilizando as melhores e mais modernas tecnologias do mercado:
+## Configuração da API
 
-**Frontend (Interface do Usuário):**
-- [Vite](https://vitejs.dev/) - *Build tool super rápida*
-- [React](https://reactjs.org/) - *Biblioteca para a criação da interface*
-- [TypeScript](https://www.typescriptlang.org/) - *Tipagem estática para maior segurança*
-- [Tailwind CSS](https://tailwindcss.com/) - *Estilização utilitária e responsiva*
-- [shadcn/ui](https://ui.shadcn.com/) - *Componentes de interface acessíveis e customizáveis*
+O frontend lê a variável de ambiente `VITE_API_URL` para definir a URL do backend. Em produção, configure essa variável com o endereço HTTPS real da API. Sem ela, o código usa um endereço local/de fallback que não é adequado para uma implantação pública.
 
-**Backend (API & Banco de Dados):**
-- [Node.js](https://nodejs.org/) & [Express](https://expressjs.com/) - *Servidor e rotas da API*
-- [Prisma ORM](https://www.prisma.io/) - *Gerenciamento e consultas ao banco de dados*
-- **PostgreSQL** - *Banco de dados relacional*
+O backend também precisa permitir a origem pública do frontend na configuração de CORS. O endereço de produção e a integração entre frontend e API devem ser testados antes de divulgar a aplicação.
 
----
+Crie um arquivo local `.env.local` para a configuração do ambiente e não publique credenciais ou tokens no Git.
 
-## 🌐 Deploy e Hospedagem
+## Backend
 
-A arquitetura do sistema foi desenhada com separação de ambientes (*Decoupled Architecture*) e está hospedada na nuvem:
+[Repositório COL-BACK](https://github.com/lucas287/COL-BACK)
 
-- **Backend (API & BD):** Hospedado e a rodar perfeitamente no ambiente do [Render](https://render.com/).
-- **Frontend (SPA):** Hospedado na [Vercel](https://vercel.com/), com regras de roteamento (rewrites) rigorosamente configuradas para uma navegação fluida e sem quebras de estado.
+## Status de publicação
 
----
-*Desenvolvido com 💻 e ☕ por um aluno da FATEC Adamantina.*
+O código está no GitHub. Uma demonstração pública só deve ser divulgada depois de configurar a URL da API, o CORS e validar login, dados e comunicação em tempo real.
