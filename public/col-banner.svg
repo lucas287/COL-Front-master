@@ -1,47 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
-<defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#050608"/><stop offset=".55" stop-color="#11151d"/><stop offset="1" stop-color="#24080c"/></linearGradient>
- <linearGradient id="red" x2="1" y2="1"><stop stop-color="#ff343d"/><stop offset="1" stop-color="#a90012"/></linearGradient>
- <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#18202c"/><stop offset="1" stop-color="#090d14"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
-</defs>
-<rect width="1200" height="675" fill="url(#bg)"/>
-<circle cx="1100" cy="100" r="230" fill="#d10c22" opacity=".15" filter="url(#glow)"/>
-<path d="M0 0H330L0 330Z" fill="#b80c20" opacity=".12"/><path d="M0 0H210L0 210Z" fill="none" stroke="#ef172b" stroke-width="3"/>
-<path d="M0 630H1200" stroke="#e51b2b" stroke-width="2" opacity=".8"/>
-<g transform="translate(65 105)">
- <circle cx="90" cy="82" r="70" fill="none" stroke="#f21b2d" stroke-width="15"/>
- <path d="M43 112V76h18v36M73 112V50h18v62M103 112V28h18v84" fill="#f21b2d"/>
- <text x="180" y="118" font-family="Arial,sans-serif" font-size="116" font-weight="800" fill="#fff" letter-spacing="-7">COL</text>
- <text x="5" y="205" font-family="Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="3" fill="#fff">CONTROLE OPERACIONAL <tspan fill="#ff2638">LÓGICO</tspan></text>
- <path d="M0 235H510" stroke="#ef1d30" stroke-width="3"/>
- <text x="0" y="292" font-family="Arial,sans-serif" font-size="22" letter-spacing="6" fill="#e6e8ed">PLANEJE  •  CONTROLE  •  EVOLUA</text>
- <g font-family="Arial,sans-serif" font-size="23" fill="#f2f3f5">
-  <text x="25" y="365">↗  Gestão inteligente</text><text x="25" y="415">⚙  Controle operacional</text><text x="25" y="465">◇  Segurança e performance</text><text x="25" y="515">ϟ  Decisões mais assertivas</text>
- </g>
-</g>
-<g transform="translate(625 95)">
- <rect x="0" y="0" width="515" height="405" rx="20" fill="#05070b" stroke="#737b87" stroke-width="5"/>
- <rect x="17" y="18" width="481" height="369" rx="10" fill="url(#screen)"/>
- <rect x="17" y="18" width="112" height="369" rx="8" fill="#0b111b"/>
- <text x="35" y="58" font-family="Arial" font-size="24" font-weight="bold" fill="#fff">◉ COL</text>
- <g font-family="Arial" font-size="13" fill="#b9c1ce"><text x="34" y="105">Dashboard</text><text x="34" y="147">Operações</text><text x="34" y="189">Relatórios</text><text x="34" y="231">Usuários</text><text x="34" y="273">Configurações</text></g>
- <rect x="143" y="38" width="335" height="42" rx="7" fill="#101925"/><text x="160" y="65" font-family="Arial" font-size="21" font-weight="bold" fill="#fff">Dashboard</text>
- <g>
-  <rect x="143" y="96" width="100" height="94" rx="8" fill="#6f1420"/><rect x="253" y="96" width="100" height="94" rx="8" fill="#121d2b"/><rect x="363" y="96" width="115" height="94" rx="8" fill="#121d2b"/>
-  <g font-family="Arial" fill="#aeb8c7" font-size="12"><text x="154" y="120">Operações</text><text x="264" y="120">Concluídas</text><text x="374" y="120">Em andamento</text></g>
-  <g font-family="Arial" fill="#fff" font-size="26" font-weight="bold"><text x="154" y="157">1.248</text><text x="264" y="157">1.193</text><text x="374" y="157">55</text></g>
-  <rect x="143" y="204" width="335" height="160" rx="8" fill="#101722"/>
-  <text x="160" y="231" font-family="Arial" font-size="15" font-weight="bold" fill="#fff">Desempenho operacional</text>
-  <path d="M165 328L210 300L255 311L300 268L345 282L390 245L455 258" fill="none" stroke="#ff2638" stroke-width="4"/>
-  <path d="M165 328L210 300L255 311L300 268L345 282L390 245L455 258V346H165Z" fill="#e51b2b" opacity=".12"/>
-  <g stroke="#394353" opacity=".6"><path d="M165 265H455M165 300H455M165 335H455"/></g>
- </g>
- <path d="M-45 407H560L520 440H0Z" fill="#222a35" stroke="#77808b" stroke-width="3"/>
- <path d="M0 440H520" stroke="#f12a3b" stroke-width="3"/>
-</g>
-<g transform="translate(70 605)" font-family="Arial,sans-serif" font-size="18" fill="#cbd2dc">
- <text x="0" y="0" fill="#43d9f5" font-weight="bold">React</text><text x="120" y="0" fill="#fff" font-weight="bold">TypeScript</text><text x="285" y="0" fill="#82d35b" font-weight="bold">Node.js</text><text x="415" y="0" fill="#fff" font-weight="bold">PostgreSQL</text><text x="590" y="0" fill="#fff" font-weight="bold">Express</text>
- <text x="810" y="0" fill="#fff" font-size="15" letter-spacing="3">TECNOLOGIA A SERVIÇO</text><text x="810" y="27" fill="#f32a3b" font-size="15" font-weight="bold" letter-spacing="3">DA SUA OPERAÇÃO</text>
-</g>
-</svg>
+<defs><linearGradient id="silver" x1="0" y1="0" x2="0.1" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#c7cbd2"/><stop offset="1" stop-color="#737985"/></linearGradient><linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff3c48"/><stop offset="1" stop-color="#a90016"/></linearGradient></defs>
+<rect width="1200" height="675" fill="#050505"/>
+<g transform="translate(120 100)">
+<path d="M390 68C325 8 224 5 151 60 78 115 48 216 77 318c20 71 77 125 150 145-111 8-211-62-235-169C-36 168 28 45 145 3 235-29 334-2 390 68Z" fill="url(#silver)"/>
+<path d="M384 66C327 28 254 24 190 57 126 90 88 157 89 229c1 50 20 96 53 132-76-30-127-105-127-191C15 57 111-35 229-35c63 0 119 27 155 70Z" fill="url(#red)" transform="translate(55 35)"/>
+<g fill="url(#red)" stroke="#65000b" stroke-width="3"><path d="M110 352V245h58v107Z"/><path d="M183 352V195h58v157Z"/><path d="M256 352V145h58v207Z"/></g>
+<text x="330" y="360" font-family="Arial,Helvetica,sans-serif" font-size="310" font-weight="900" letter-spacing="-18" fill="url(#silver)">CO</text>
+<path d="M813 120h83v235h-83z" fill="url(#silver)"/><path d="M813 292h230v63H813z" fill="url(#red)"/>
+</g></svg>
